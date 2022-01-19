@@ -5,6 +5,8 @@
 }
 
 .container{
+    /* max-width: 1000px;
+    min-width: 500px; */
     width: 1000px;
     height: 900px;
     margin: 10px auto;
@@ -28,7 +30,6 @@
 .main-down{
     clear: both;
     width: 100%;
-    height: 500px;
     background-color: rgb(12, 66, 226);
 }
 
@@ -47,42 +48,31 @@
 }
 
 .aside-column{
-    border: 1px solid black;
-    width: 250px;
-    height: 300px;
-    margin-left: 20px;
+    height: 400px;
     background-color: lightblue;
-     /* width: calc((100% / 2) - 20px) ; */
+    width: calc((50% / 2) - 10px);  
 }
 
 .big-column{
-    width: 500px;
-    height: 300px;
     float: left;
+    /* margin-right: 10px; */
+    width: 50%;
+    height: 400px;
     background-color: lightblue;
-}
+} 
 
-.left{
+.fl-left{
+    margin: 0 10px 10px 0px;
     float: left;
 }
 
-.right{
-    float: left;
+.fl-right{
+    float: right;
 }
 
-
-
-
-/* .big-column{
-    width: 80px;
-    height: 250px;
-    margin-left: 20px;
-    
-} */
-
-/* .footer{
+.footer{
     width: 100%;
-    height: 50px;
+    height: 20px;
     margin-top: 10px;
     background-color: purple;
-} */
+} 
